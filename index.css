@@ -1,0 +1,59 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-weight: bold;
+    color: brown;
+    padding: 20px 20px;
+}
+
+.banner {
+    color: black;
+    background-color: skyblue;
+    margin-top: 100px;
+    text-align: center;   
+    padding: 75px 0;
+}
+
+.banner img {
+    height: 400px;
+    width: 400px;
+}
+
+.gritter {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.greetings{
+    padding: 20px 50px;
+    background-color: antiquewhite;
+
+}
+
+.greetings ul {
+    list-style-type: none;
+}
+
+.avatar{
+    background-image: url('../images/kk2.jpeg');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
